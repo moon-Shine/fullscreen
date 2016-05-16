@@ -1,3 +1,13 @@
+/*
+    author：moon-shine
+    data:16-3-15
+    version:1.1
+    
+    参数
+    direction:vertical(水平滚动)、horizontal(竖直滚动)
+    ele :外盒
+    speed：slow、fast、middle
+*/
 function fullScreen(ele,direction,speed){
     var element=document.getElementById(ele),//父级元素
         bodyHeight=document.body.offsetHeight,//浏览器高度
